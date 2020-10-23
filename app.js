@@ -49,4 +49,3 @@ const scene10 = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 100
     .setClassToggle('.grafico2', 'show',)
     .addTo(controller)
     .setTween(tween)
-y
