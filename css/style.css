@@ -1,0 +1,76 @@
+.animation{
+    position: relative;
+    overflow: hidden;
+    background-color: #3E5363; }
+
+.predio{
+    opacity: 1; }
+
+.seta_direita{
+    margin-left: 2%;
+    opacity: 0;
+    transition: 1; }
+
+.pc{
+    margin-left: 2%;
+    opacity: 0;
+    transition: 1; }
+
+.pc.show{
+    opacity: 1;
+}
+
+.seta_baixo {
+    margin-top: 13%;
+    margin-left: -16px;
+    opacity: 0;
+    transition: 1; }
+
+.seta_cima {
+    margin-bottom: 15%;
+    margin-left: -5.5%;
+    opacity: 0;
+    transition: 1; }
+
+.seta {
+    margin-left: 3.8%;
+    transition: 1;
+    opacity: 0; }
+
+.file {
+    margin-left: -13.5%;
+    margin-bottom: 28%;
+    transition: 1;
+    opacity: 0; }
+
+.file1 {
+    margin-left: -6.5%;
+    margin-top: 28%;
+    transition: 1;
+    opacity: 0; }
+
+.file2 {
+    margin-left: 8%;
+    transition: 1;
+    opacity: 0; }
+    
+.seta_grafico {
+    margin-left: 2%;
+    opacity: 0;
+    transition: 1; }
+
+.grafico1 {
+    margin-left: 2.5%;
+    margin-bottom: 8%;
+    opacity: 0;
+    transition: 1;}
+
+.grafico2 {
+    margin-left: -7.2%;
+    margin-top: 5.5%;
+    opacity: 0;
+    transition: 1; }
+
+.show{
+    opacity: 1;
+}
