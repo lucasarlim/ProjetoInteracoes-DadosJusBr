@@ -153,7 +153,7 @@
     opacity: 0;
     transition: 1s;}
     
-#carro.show {   
+#carro.show{   
     opacity: 1; }
 
 #soma-3 {
@@ -162,16 +162,16 @@
     opacity: 0;
     transition: 1s;}
 
-#soma-3.show {
+#soma-3.show{
     opacity: 1; }
 
-#remuneracao {
+#remuneracao{
     margin-top: 40%;
     margin-left: 3.5%;
     opacity: 0;
     transition: 1s; }
 
-#remuneracao.show {
+#remuneracao.show{
     opacity: 1; }
 
 #soma-4 {
@@ -180,7 +180,7 @@
     opacity: 0;
     transition: 1s; }
 
-#soma-4.show {
+#soma-4.show{
     opacity: 1; }
 
 #diaria {
@@ -189,7 +189,7 @@
     opacity: 0; 
     transition: 1s; }
 
-#diaria.show {
+#diaria.show{
     opacity: 1; }
 
 .show {
