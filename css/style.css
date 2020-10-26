@@ -1,76 +1,196 @@
-.animation{
-    position: relative;
-    overflow: hidden;
-    background-color: #3E5363; }
-
 .predio{
     opacity: 1; }
 
 .seta_direita{
     margin-left: 2%;
     opacity: 0;
-    transition: 1; }
+    transition: 1s; }
 
-.pc{
+.pc {
     margin-left: 2%;
     opacity: 0;
-    transition: 1; }
-
-.pc.show{
-    opacity: 1;
-}
+    transition: 1s; }
 
 .seta_baixo {
     margin-top: 13%;
     margin-left: -16px;
     opacity: 0;
-    transition: 1; }
+    transition: 1s; }
 
 .seta_cima {
     margin-bottom: 15%;
     margin-left: -5.5%;
     opacity: 0;
-    transition: 1; }
+    transition: 1s; }
 
 .seta {
     margin-left: 3.8%;
-    transition: 1;
+    transition: 1s;
     opacity: 0; }
 
 .file {
     margin-left: -13.5%;
     margin-bottom: 28%;
-    transition: 1;
+    transition: 1s;
     opacity: 0; }
 
 .file1 {
     margin-left: -6.5%;
     margin-top: 28%;
-    transition: 1;
+    transition: 1s;
     opacity: 0; }
 
 .file2 {
     margin-left: 8%;
-    transition: 1;
+    transition: 1s;
     opacity: 0; }
     
 .seta_grafico {
     margin-left: 2%;
     opacity: 0;
-    transition: 1; }
+    transition: 1s; }
 
 .grafico1 {
     margin-left: 2.5%;
     margin-bottom: 8%;
     opacity: 0;
-    transition: 1;}
+    transition: 1s;}
 
 .grafico2 {
     margin-left: -7.2%;
     margin-top: 5.5%;
     opacity: 0;
-    transition: 1; }
+    transition: 1s; }
 
-.show{
-    opacity: 1;
+#empregado{
+    margin-bottom: 20%;
 }
+
+#seta_baixo{
+    opacity: 0;
+    transition: 1s;
+    margin-left: -3%;
+    margin-bottom: 5%; }
+
+#seta_baixo.show{
+    opacity: 1; }
+
+#salario{
+    margin-left: -6%;
+    margin-top: 10%;
+    opacity: 0;
+    transition: 1s; }
+
+#salario.show{
+    opacity: 1; }
+
+#soma_salario{
+    margin-left: 3%;
+    margin-top: 7%;
+    opacity: 0%;
+    transition: 1s; }
+
+#soma_salario.show{
+    opacity: 1;}
+
+#beneficio{
+    margin-left: 2.5%;
+    margin-top: 8.5%;
+    opacity: 0;
+    transition: 1s; }
+
+#beneficio.show{
+    opacity: 1; }
+
+#seta_baixo1{
+    opacity: 0;
+    transition: 1s;
+    margin-left: -4%;
+    margin-top: 23%; }
+    
+#seta_baixo1.show{
+    opacity: 1; }
+
+#moradia{
+    margin-top: 40%;
+    margin-left: -40%;
+    opacity: 0;
+    transition: 1s; }
+
+#moradia.show{
+    opacity: 1; }
+
+#soma-1{
+    margin-left: 3.5%;
+    margin-top: 40%;
+    opacity: 0;
+    transition: 1s;}
+
+#soma-1.show{
+    opacity: 1; }
+
+#saude{
+    margin-left: 3.5%;
+    margin-top: 40%;
+    opacity: 0;
+    transition: 1s; }
+
+#saude.show{
+    opacity: 1; }
+
+#soma-2{
+    margin-top: 40%;
+    margin-left: 3.5%; 
+    opacity: 0;
+    transition: 1s;}
+
+#soma-2.show{
+    opacity: 1; }
+
+#carro{
+    margin-top: 40%;
+    margin-left: 3.5%;
+    opacity: 0;
+    transition: 1s;}
+    
+#carro.show{   
+    opacity: 1; }
+
+#soma-3{
+    margin-left: 3.5%;
+    margin-top: 40%; 
+    opacity: 0;
+    transition: 1s;}
+
+#soma-3.show{
+    opacity: 1; }
+
+#remuneracao{
+    margin-top: 40%;
+    margin-left: 3.5%;
+    opacity: 0;
+    transition: 1s; }
+
+#remuneracao.show{
+    opacity: 1; }
+
+#soma-4{
+    margin-top: 40%;
+    margin-left: 3.5%;
+    opacity: 0;
+    transition: 1s; }
+
+#soma-4.show{
+    opacity: 1; }
+
+#diaria{
+    margin-top: 40%;
+    margin-left: 3.5%;
+    opacity: 0; 
+    transition: 1s; }
+
+#diaria.show{
+    opacity: 1; }
+
+.show {
+    opacity: 1; }
