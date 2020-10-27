@@ -1,5 +1,6 @@
 .predio{
-    opacity: 1; }
+    transition: 1s;
+    opacity: 0; }
 
 .seta_direita{
     margin-left: 13px;
@@ -63,8 +64,14 @@
     transition: 1s; }
 
 #empregado {
+    opacity: 0;
+    transition: 1s;
     margin-bottom: 115px;
     margin-left: 50px;
+}
+
+#empregado.show{
+    opacity: 1;
 }
 
 #seta_baixo {
