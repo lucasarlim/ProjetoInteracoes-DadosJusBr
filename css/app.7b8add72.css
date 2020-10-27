@@ -5,47 +5,233 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 
-.textNav[data-v-7389a464]{color:#fff;font-size:1.2rem}
-.navBar[data-v-7389a464]{background-color:#3e5363}
-.footerContainer[data-v-69fa19f8]{background-color:#3e5363;color:#fff;font-size:1.3em}
-.app{font-family:Roboto Condensed;background-color:#fff}
-.wageTotal{font-size:1.4em;height:4em!important;
+.textNav[data-v-7389a464]{
+    color:#fff;
+    font-size:1.2rem}
+.navBar[data-v-7389a464]{
+    background-color:#3e5363}
+.footerContainer[data-v-69fa19f8]{
+    background-color:#3e5363;
+    color:#fff;
+    font-size:1.3em}
+.app{
+    font-family:Roboto Condensed;
+    background-color:#fff}
+.wageTotal{
+    font-size:1.4em;
+    height:4em!important;
     -webkit-box-pack:center;
     -ms-flex-pack:center;
     justify-content:center}
-    .secondBox,.wageTotal{color:#fff;text-align:center;background-color:#3e5363;border-bottom:1px solid #fff}
-    .secondBox{font-size:1rem;height:10em!important}
-    .employeesClassification{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-    .whiteSpace{width:15px;height:100%}
-    .square{cursor:pointer;height:55px;width:55px;margin-bottom:15px}
-    .squareOpac{cursor:pointer;height:45px;width:45px;opacity:.2}
+    .secondBox,.wageTotal{
+        color:#fff;
+        text-align:center;
+        background-color:#3e5363;
+        border-bottom:1px solid #fff}
+    .secondBox{
+        font-size:1rem;
+        height:10em!important}
+    .employeesClassification{
+        -webkit-box-pack:center;
+        -ms-flex-pack:center;
+        justify-content:center;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center}
+    .whiteSpace{
+        width:15px;
+        height:100%}
+    .square{
+        cursor:pointer;
+        height:55px;
+        width:55px;
+        margin-bottom:15px}
+    .squareOpac{
+        cursor:pointer;
+        height:45px;
+        width:45px;
+        opacity:.2}
     @media only screen and (max-width:700px){.wageTotal{font-size:1.2em}}
-    .graphTooltip[data-v-2730d930]{height:65px;width:144px;background-color:#fff}
-    .graphContainer[data-v-2730d930]{background-color:#fff;text-align:center}
-    .graphHeader[data-v-2730d930]{background-color:#3e5363;font-size:1.5em;color:#fff;height:5em!important}
-    .graph[data-v-2730d930]{margin-bottom:5%;height:100%}@media only screen and (max-width:700px){.graphHeader[data-v-2730d930]{height:7em!important}}.button{width:150px;height:48px;font-size:17px}.button,.closeButton{background-color:#545454;border:solid #545454;color:#fff}.closeButton{float:right;width:30px;height:30px}.shareMenu{width:285px;height:218px;background-color:#e0dfe0;text-align:center;position:fixed;left:50%;top:50%;margin-left:-142.5px;margin-top:-109px}.overlay{position:fixed;top:0;left:0;width:200px;background-color:tomato}.errorLog{padding-left:5px;padding-top:5px;padding-right:5px;padding-bottom:5px;text-align:center;margin-bottom:5px}.textArea{border:1px solid #2ab38b;width:80%}h5{margin-bottom:0}a{color:#000;font-size:1.4em;font-weight:700}.buttonContainer2[data-v-17249a62]{height:82px}.agencyName[data-v-17249a62]{color:#3e5363;font-size:1.4em}.cr[data-v-17249a62]{text-align:center;font-size:1em;color:#3e5363}.buttonContainer[data-v-17249a62]{color:#3e5363;font-size:1.3em}@media only screen and (max-width:700px){.buttonContainer2[data-v-17249a62]{height:82px;margin-bottom:66%!important}.agencyName[data-v-17249a62]{color:#3e5363;font-size:1.2em}}.profilePhoto[data-v-97be40e0]{border-radius:50%;width:190px;height:190px}.teamPhotoCard[data-v-97be40e0]{color:#3e5363;text-align:center;height:6em;width:60%;font-size:1.3em}@media only screen and (max-width:500px){.teamPhotoCard[data-v-97be40e0]{text-align:center;height:350px;width:90%;font-size:1.3em}.profilePhoto[data-v-97be40e0]{border-radius:50%;width:150px;height:150px}}@media only screen and (max-width:320px){.teamPhotoCard[data-v-97be40e0]{text-align:center;height:250px;width:95%;font-size:1.3em}.profilePhoto[data-v-97be40e0]{border-radius:50%;width:140px;height:140px}}.equipe[data-v-390097dc],.parceiros[data-v-390097dc]{font-size:1.3em;color:#3e5363;background-color:#2fbb96}.contribuaBotao[data-v-390097dc]{width:295px;height:83px;border:2px solid #fff;background-color:rgba(62,83,99,0);color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.contribuaBotao[data-v-390097dc]:hover{background-color:#fff;color:#3e5363}a[data-v-390097dc]{font-size:1.3em}.contribua[data-v-390097dc]{background-color:#3e5363;font-size:1.3em;color:#fff}.logo[data-v-390097dc]{height:245px;width:295px}.agencyName[data-v-2e44e00f]{color:#3e5363;font-size:1.3rem}.menuHeader[data-v-2e44e00f]{border-bottom:1px solid #fff}
-    .graphHeader[data-v-2e44e00f],
-    .menuHeader[data-v-2e44e00f]{
-        background-color:#3e5363;font-size:1.3rem;
+    .graphTooltip[data-v-2730d930]{
+        height:65px;
+        width:144px;
+        background-color:#fff}
+    .graphContainer[data-v-2730d930]{
+        background-color:#fff;
+        text-align:center}
+    .graphHeader[data-v-2730d930]{
+        background-color:#3e5363;
+        font-size:1.5em;
+        color:#fff;
+        height:5em!important}
+    .graph[data-v-2730d930]{
+        margin-bottom:5%;
+        height:100%}
+    @media only screen and (max-width:700px){
+        .graphHeader[data-v-2730d930]{
+            height:7em!important}}
+    .button{
+        width:150px;
+        height:48px;
+        font-size:17px}
+    .button,.closeButton{
+        background-color:#545454;
+        border:solid #545454;
         color:#fff}
-        .remunerationMenu[data-v-2e44e00f]{background-color:#3e5363}
-        .graphContainer[data-v-2e44e00f]{background-color:#fff;
+    .closeButton{
+        float:right;
+        width:30px;
+        height:30px}
+    .shareMenu{
+        width:285px;
+        height:218px;
+        background-color:#e0dfe0;
+        text-align:center;
+  position:fixed;
+  left:50%;top:50%;
+  margin-left:-142.5px;
+  margin-top:-109px}
+  .overlay{
+      position:fixed;
+      top:0;
+      left:0;
+      width:200px;
+      background-color:tomato}
+      .errorLog{
+          padding-left:5px;
+          padding-top:5px;
+          padding-right:5px;
+          padding-bottom:5px;
+          text-align:center;
+          margin-bottom:5px}
+          .textArea{
+              border:1px solid #2ab38b;
+              width:80%}
+              h5{
+margin-bottom:0}
+              a{
+color:#000;
+font-size:1.4em;
+font-weight:700}
+.buttonContainer2[data-v-17249a62]{
+    height:82px}
+    .agencyName[data-v-17249a62]{
+        color:#3e5363;
+        font-size:1.4em}
+.cr[data-v-17249a62]{
+    text-align:center;
+    font-size:1em;
+    color:#3e5363}
+.buttonContainer[data-v-17249a62]{
+    color:#3e5363;
+    font-size:1.3em}
+
+@media only screen and (max-width:700px){
+  .buttonContainer2[data-v-17249a62]{
+      height:82px;
+      margin-bottom:66%!important}
+      
+.agencyName[data-v-17249a62]{
+    color:#3e5363;
+    font-size:1.2em}}
+.profilePhoto[data-v-97be40e0]{
+    border-radius:50%;
+    width:190px;
+        height:190px}
+.teamPhotoCard[data-v-97be40e0]{
+    color:#3e5363;
+    text-align:center;
+    height:6em;
+    width:60%;
+    font-size:1.3em}
+@media only screen and (max-width:500px){
+    .teamPhotoCard[data-v-97be40e0]{
+        text-align:center;
+        height:350px;
+        width:90%;
+        font-size:1.3em}
+.profilePhoto[data-v-97be40e0]{
+    border-radius:50%;
+    width:150px;
+    height:150px}}
+@media only screen and (max-width:320px){
+    .teamPhotoCard[data-v-97be40e0]{
+        text-align:center;
+        height:250px;
+        width:95%;
+        font-size:1.3em}
+.profilePhoto[data-v-97be40e0]{  
+    border-radius:50%; 
+    width:140px;
+    height:140px}}  
+.equipe[data-v-390097dc],.parceiros[data-v-390097dc]{
+    font-size:1.3em;
+    color:#3e5363;
+    background-color:#2fbb96}
+.contribuaBotao[data-v-390097dc]{
+    width:295px;  
+    height:83px;
+    border:2px solid #fff;
+    background-color:rgba(62,83,99,0);
+    color:#fff;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;  
+    justify-content:center}  
+.contribuaBotao[data-v-390097dc]:hover{
+    background-color:#fff;
+    color:#3e5363}
+a[data-v-390097dc]{
+    font-size:1.3em}
+.contribua[data-v-390097dc]{
+    background-color:#3e5363;
+    font-size:1.3em;
+    color:#fff}
+.logo[data-v-390097dc]{
+    height:245px;
+    width:295px}
+.agencyName[data-v-2e44e00f]{
+    color:#3e5363;
+    font-size:1.3rem}
+.menuHeader[data-v-2e44e00f]{
+  border-bottom:1px solid #fff}
+.graphHeader[data-v-2e44e00f],
+.menuHeader[data-v-2e44e00f]{
+    background-color:#3e5363;
+    font-size:1.3rem;
+    color:#fff}
+.remunerationMenu[data-v-2e44e00f]{
+    background-color:#3e5363}
+.graphContainer[data-v-2e44e00f]{
+background-color:#fff;
             -ms-flex-item-align:center;
             align-self:center}
-            a[data-v-2e44e00f]{color:#4a4a4a}
-            .buttonContainer[data-v-2e44e00f]{text-align:center}
-            .md-button[data-v-2e44e00f]{margin-top:-3px}
-            .moreInfoButton[data-v-2e44e00f]{margin:15px 0 15px 0;
+            
+            a[data-v-2e44e00f]{
+                color:#4a4a4a}
+            .buttonContainer[data-v-2e44e00f]{
+                text-align:center}
+            .md-button[data-v-2e44e00f]{
+                margin-top:-3px}
+            .moreInfoButton[data-v-2e44e00f]{
+                margin:15px 0 15px 0;
                 width:150px;
                 height:48px;
                 background-color:#7f3d8b;
                 border:solid #7f3d8b;
                 color:#fff;
-                font-size:17px}.agencyName[data-v-39911dcb]{
+                font-size:17px}
+                .agencyName[data-v-39911dcb]{
                     font-size:3rem;
                     margin-top:2%;
                     margin-bottom:0}
-                    .container[data-v-39911dcb]{text-align:center;
+                    .container[data-v-39911dcb]{
+                        text-align:center;
                         -webkit-box-align:center;
                         -ms-flex-align:center;
                         align-items:center;
@@ -58,19 +244,25 @@
         height:5em!important;
         color:#fff;
         font-size:1.5rem;
-        background-color:#b361c6;text-align:center}
-        .sobre[data-v-29524bd9]{background-color:#3e5363}
+        background-color:#b361c6;
+        text-align:center}
+        .sobre[data-v-29524bd9]{
+            background-color:#3e5363}
         a[data-v-29524bd9]{
             color:#fff;
             font-size:22px}
             .infoCard[data-v-29524bd9]{
                 color:#fff;
-                font-size:22px
-                ;background-color:#3e5363}
+                font-size:22px;
+                background-color:#3e5363; }
                 .dropDownButton[data-v-072774fc]{
                     width:400px;
                     height:83px;
                     margin-top:50px;
                     margin-bottom:50px;
                     border:1px solid #fff}
-                    @media only screen and (max-width:650px){.dropDownButton[data-v-072774fc]{width:90%}}
+                    @media only screen and (max-width:650px){
+                        .dropDownButton[data-v-072774fc]{
+                        width:90%}
+                    }
+                    
