@@ -29,13 +29,13 @@
     opacity: 0; }
 
 .file {
-    margin-left: -12.8%;
+    margin-left: -77px;
     margin-bottom: 180px;
     transition: 1s;
     opacity: 0; }
 
 .file1 {
-    margin-left: -6.5%;
+    margin-left: -37px;
     margin-top: 180px;
     transition: 1s;
     opacity: 0; }
@@ -64,7 +64,7 @@
 
 #empregado {
     margin-bottom: 115px;
-    margin-left: 0px;
+    margin-left: 50px;
 }
 
 #seta_baixo {
