@@ -266,17 +266,17 @@ a[data-v-29524bd9]{
     .dropDownButton[data-v-072774fc]{
         width:90%}
     
-    .containeranimation[data-v-29524bd9] #empregado,#salario,#beneficio, #moradia,#saude, #carro,#remuneracao,#diaria{
+    .containeranimation[data-v-29524bd9] #empregado,#salario,#beneficio, #moradia,#saude, #carro,#remuneracao,#diaria, .predio, .pc, .file1, .file2, .file, .grafico2, .grafico1{
         
         width: 30px;
         height: auto;
-        position: static;
-        height: auto;
         overflow: visible;
+        object-position: center;
     }
 
     .containeranimation[data-v-29524bd9] #moradia{
         margin-left: -162px;
     }
+
 }
                     
