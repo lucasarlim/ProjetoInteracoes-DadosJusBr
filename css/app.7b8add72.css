@@ -109,10 +109,11 @@
               width:80%}
               h5{
 margin-bottom:0}
-              a{
-color:#000;
-font-size:1.4em;
-font-weight:700}
+              
+a{
+    color:#000;
+    font-size:1.4em;
+    font-weight:700}
 .buttonContainer2[data-v-17249a62]{
     height:82px}
     .agencyName[data-v-17249a62]{
@@ -265,18 +266,6 @@ a[data-v-29524bd9]{
     @media only screen and (max-width:650px){
     .dropDownButton[data-v-072774fc]{
         width:90%}
-    
-    .containeranimation[data-v-29524bd9] #empregado,#salario,#beneficio, #moradia,#saude, #carro,#remuneracao,#diaria, .predio, .pc, .file1, .file2, .file, .grafico2, .grafico1{
-        
-        width: 30px;
-        height: auto;
-        overflow: visible;
-        object-position: center;
-    }
-
-    .containeranimation[data-v-29524bd9] #moradia{
-        margin-left: -162px;
-    }
 
 }
                     

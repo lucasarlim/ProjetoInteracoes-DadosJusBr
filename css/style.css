@@ -1,5 +1,9 @@
 .predio{
-    opacity: 1; }
+    min-width: 25px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    opacity: 0; }
 
 .seta_direita{
     margin-left: 13px;
@@ -7,7 +11,10 @@
     transition: 1s; }
 
 .pc {
-    margin-left: 25px;
+    min-width: 25px;
+    width: auto;
+    height: auto;
+    margin-left: 13px;
     opacity: 0;
     transition: 1s; }
 
@@ -29,18 +36,27 @@
     opacity: 0; }
 
 .file {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: -77px;
     margin-bottom: 180px;
     transition: 1s;
     opacity: 0; }
 
 .file1 {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: -37px;
     margin-top: 180px;
     transition: 1s;
     opacity: 0; }
 
 .file2 {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: 55px;
     margin-top: 0px;
     transition: 1s;
@@ -52,18 +68,28 @@
     transition: 1s; }
 
 .grafico1 {
+
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left:20px;
     margin-bottom: 40.5px;
     opacity: 0;
     transition: 1s;}
 
 .grafico2 {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: -43px;
     margin-top: 40.5px;
     opacity: 0;
     transition: 1s; }
 
 #empregado {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-bottom: 115px;
     margin-left: 70px;
 }
@@ -78,6 +104,9 @@
     opacity: 1; }
 
 #salario {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: -37px;
     margin-top: 69px;
     opacity: 0;
@@ -87,6 +116,9 @@
     opacity: 1; }
 
 #soma_salario {
+    min-width: 5px;
+    width: auto;
+    height: auto;
     margin-left: 13px;
     margin-top: 49px;
     opacity: 0%;
@@ -96,6 +128,9 @@
     opacity: 1;}
 
 #beneficio {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: 8px;
     margin-top: 65px;
     opacity: 0;
@@ -114,6 +149,9 @@
     opacity: 1; }
 
 #moradia {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-top: 259px;
     margin-left: -195px;
     opacity: 0;
@@ -123,6 +161,9 @@
     opacity: 1; }
 
 #soma-1{
+    min-width: 5px;
+    width: auto;
+    height: auto;
     margin-left: 13px;
     margin-top: 259px;
     opacity: 0;
@@ -132,6 +173,9 @@
     opacity: 1; }
 
 #saude{
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-left: 8px;
     margin-top: 259px;
     opacity: 0;
@@ -141,6 +185,9 @@
     opacity: 1; }
 
 #soma-2{
+    min-width: 5px;
+    width: auto;
+    height: auto;
     margin-top: 259px;
     margin-left: 13px; 
     opacity: 0;
@@ -150,6 +197,9 @@
     opacity: 1; }
 
 #carro {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-top: 259px;
     margin-left: 8px;
     opacity: 0;
@@ -159,6 +209,9 @@
     opacity: 1; }
 
 #soma-3 {
+    min-width: 5px;
+    width: auto;
+    height: auto;
     margin-left: 13px;
     margin-top: 259px; 
     opacity: 0;
@@ -168,6 +221,9 @@
     opacity: 1; }
 
 #remuneracao{
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-top: 259px;
     margin-left: 8px;
     opacity: 0;
@@ -177,6 +233,9 @@
     opacity: 1; }
 
 #soma-4 {
+    min-width: 5px;
+    width: auto;
+    height: auto;
     margin-top: 259px;
     margin-left: 13px;
     opacity: 0;
@@ -186,6 +245,9 @@
     opacity: 1; }
 
 #diaria {
+    min-width: 25px;
+    width: auto;
+    height: auto;
     margin-top: 259px;
     margin-left: 8px;
     opacity: 0; 
@@ -193,6 +255,157 @@
 
 #diaria.show{
     opacity: 1; }
+
+
+.p1{
+    min-width: 25px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.seta_p1{
+    min-width: 5px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.sal_p1{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: -38px;
+    margin-top: 70px;
+}
+
+.soma_p1{
+    min-width: 5px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.ben_p1{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 65px;
+    margin-left: 8px;
+}
+
+.p2{
+    min-width: 25px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.seta_p2{
+    min-width: 5px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.sal_p2{
+    min-width: 25px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: -38px;
+    margin-top: 70px;
+}
+
+.soma_p2{
+    min-width: 5px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.ben_p2{
+    min-width: 25px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 65px;
+    margin-left: 8px;
+}
+
+.p3{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.seta_p3{
+    min-width: 5px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.sal_p3{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: -38px;
+    margin-top: 70px;
+}
+
+.soma_p3{
+    min-width: 3px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.ben_p3{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 65px;
+    margin-left: 8px;
+}
 
 .show {
     opacity: 1; }
