@@ -1,6 +1,5 @@
 .predio{
-    transition: 1s;
-    opacity: 0; }
+    opacity: 1; }
 
 .seta_direita{
     margin-left: 13px;
@@ -64,14 +63,8 @@
     transition: 1s; }
 
 #empregado {
-    opacity: 0;
-    transition: 1s;
     margin-bottom: 115px;
-    margin-left: 80px;
-}
-
-#empregado.show{
-    opacity: 1;
+    margin-left: 70px;
 }
 
 #seta_baixo {
@@ -128,25 +121,25 @@
 #moradia.show {
     opacity: 1; }
 
-#soma-1 {
+#soma-1{
     margin-left: 13px;
     margin-top: 259px;
     opacity: 0;
     transition: 1s;}
 
-#soma-1.show {
+#soma-1.show{
     opacity: 1; }
 
-#saude {
+#saude{
     margin-left: 8px;
     margin-top: 259px;
     opacity: 0;
     transition: 1s; }
 
-#saude.show {
+#saude.show{
     opacity: 1; }
 
-#soma-2 {
+#soma-2{
     margin-top: 259px;
     margin-left: 13px; 
     opacity: 0;

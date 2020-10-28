@@ -208,61 +208,75 @@ a[data-v-390097dc]{
 .remunerationMenu[data-v-2e44e00f]{
     background-color:#3e5363}
 .graphContainer[data-v-2e44e00f]{
-background-color:#fff;
-            -ms-flex-item-align:center;
-            align-self:center}
+    background-color:#fff;
+    -ms-flex-item-align:center;
+    align-self:center}
             
-            a[data-v-2e44e00f]{
-                color:#4a4a4a}
-            .buttonContainer[data-v-2e44e00f]{
-                text-align:center}
-            .md-button[data-v-2e44e00f]{
-                margin-top:-3px}
-            .moreInfoButton[data-v-2e44e00f]{
-                margin:15px 0 15px 0;
-                width:150px;
-                height:48px;
-                background-color:#7f3d8b;
-                border:solid #7f3d8b;
-                color:#fff;
-                font-size:17px}
-                .agencyName[data-v-39911dcb]{
-                    font-size:3rem;
-                    margin-top:2%;
-                    margin-bottom:0}
-                    .container[data-v-39911dcb]{
-                        text-align:center;
-                        -webkit-box-align:center;
-                        -ms-flex-align:center;
-                        align-items:center;
-                        margin-top:1%}
-                        .year[data-v-39911dcb]{
-                            font-size:1.5em;
-                            margin-top:2%;
-                            font-weight:700}
-    .sloganContainer[data-v-29524bd9]{
-        height:5em!important;
-        color:#fff;
-        font-size:1.5rem;
-        background-color:#b361c6;
-        text-align:center}
-        .sobre[data-v-29524bd9]{
-            background-color:#3e5363}
-        a[data-v-29524bd9]{
-            color:#fff;
-            font-size:22px}
-            .infoCard[data-v-29524bd9]{
-                color:#fff;
-                font-size:22px;
-                background-color:#3e5363; }
-                .dropDownButton[data-v-072774fc]{
-                    width:400px;
-                    height:83px;
-                    margin-top:50px;
-                    margin-bottom:50px;
-                    border:1px solid #fff}
-                    @media only screen and (max-width:650px){
-                        .dropDownButton[data-v-072774fc]{
-                        width:90%}
-                    }
+a[data-v-2e44e00f]{
+    Color:#4a4a4a}
+.buttonContainer[data-v-2e44e00f]{
+    text-align:center}
+.md-button[data-v-2e44e00f]{
+     margin-top:-3px}
+.moreInfoButton[data-v-2e44e00f]{
+    margin:15px 0 15px 0;
+    width:150px;
+    background-color:#7f3d8b;
+    border:solid #7f3d8b;
+    color:#fff;
+    font-size:17px}
+.agencyName[data-v-39911dcb]{
+    font-size:3rem;
+    margin-top:2%;
+    margin-bottom:0}
+.container[data-v-39911dcb]{
+  text-align:center;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  margin-top:1%}
+.year[data-v-39911dcb]{
+    font-size:1.5em;
+    margin-top:2%;
+    font-weight:700}
+.sloganContainer[data-v-29524bd9]{
+    height:5em!important;
+    color:#fff;
+    font-size:1.5rem;
+    background-color:#b361c6;
+    text-align:center}
+.sobre[data-v-29524bd9]{
+    background-color:#3e5363}
+a[data-v-29524bd9]{
+    color:#fff;
+    font-size:22px}
+.infoCard[data-v-29524bd9]{
+    color:#fff;
+    font-size:22px;
+    background-color:#3e5363; }
+
+.dropDownButton[data-v-072774fc]{
+    width:400px;
+    height:83px;
+    margin-top:50px;
+    margin-bottom:50px;
+    border:1px solid #fff}
+
+    @media only screen and (max-width:650px){
+    .dropDownButton[data-v-072774fc]{
+        width:90%}
+    
+    .containeranimation[data-v-29524bd9] #empregado,#salario,#beneficio, #moradia,#saude, #carro,#remuneracao,#diaria{
+        
+        width: 30px;
+        height: auto;
+        position: static;
+        height: auto;
+        overflow: visible;
+    }
+
+    .containeranimation[data-v-29524bd9] #moradia{
+        margin-left: -162px;
+    }
+}
                     
