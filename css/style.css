@@ -87,10 +87,16 @@
 
 #empregado {
     min-width: 25px;
+    opacity: 0;
+    transition: 1s;
     width: auto;
     height: auto;
     margin-bottom: 115px;
     margin-left: 70px;
+}
+
+#empregado.show{
+    opacity: 1;
 }
 
 #seta_baixo {
@@ -406,5 +412,80 @@
     margin-left: 8px;
 }
 
+.fileEsquerda{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 10px;
+}
+
+.seta_esquerda_animacao1{
+    opacity: 0;
+    transition: 1s;
+    transform: rotateY(-180deg);
+    margin-left: 13px;
+}
+
+.seta_cima_animacao1{
+    opacity: 0;
+    transition: 1s;
+    margin-bottom: 85px;
+    margin-left: -30px;
+}
+
+.fileCima{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-bottom: 170px;
+    margin-left: -38px;
+}
+
+.computadorAnimacao1{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 13px;
+}
+
+.seta_baixo_animacao1{
+    opacity: 0;
+    transition: 1s;
+    margin-top: 85px;
+    margin-left: -20px;
+}
+
+.fileBaixo{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 170px;
+    margin-left: -35px;
+}
+
+.seta_direita_animacao1{
+    opacity: 0;
+    transition: 1s;
+    margin-left: 18px;
+}
+
+.fileDireita{
+    min-width: 20px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 15px;
+}
+
 .show {
     opacity: 1; }
+

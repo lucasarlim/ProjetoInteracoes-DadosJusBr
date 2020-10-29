@@ -176,8 +176,43 @@ const sc41 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
     .setClassToggle('.soma_p3', 'show',)
     .addTo(controller)
 
-    const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
     .setClassToggle('.ben_p3', 'show',)
     .addTo(controller)
 
+const sc43 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.5,})
+    .setClassToggle('.computadorAnimacao1','show')
+    .addIndicators({ name: 'start',indent: 0,})
+    .addTo(controller)    
+
+const sc44 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+    .setClassToggle('.seta_esquerda_animacao1', 'show',)
+    .addTo(controller)
+
+const sc45 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+    .setClassToggle('.seta_direita_animacao1', 'show',)
+    .addTo(controller)
     
+const sc46 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+    .setClassToggle('.seta_cima_animacao1', 'show',)
+    .addTo(controller)
+    
+const sc47 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+    .setClassToggle('.seta_baixo_animacao1', 'show',)
+    .addTo(controller)
+
+const sc48 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+    .setClassToggle('.fileEsquerda', 'show',)
+    .addTo(controller)
+
+const sc49 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+    .setClassToggle('.fileCima', 'show',)
+    .addTo(controller)
+
+const sc50 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+    .setClassToggle('.fileBaixo', 'show',)
+    .addTo(controller)
+
+const sc51 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+    .setClassToggle('.fileDireita', 'show',)
+    .addTo(controller)
