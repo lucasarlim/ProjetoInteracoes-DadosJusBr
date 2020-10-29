@@ -147,12 +147,15 @@ const sc33 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
 const sc34 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.seta_p2', 'show',)
     .addTo(controller)
+
 const sc35 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
     .setClassToggle('.sal_p2', 'show',)
     .addTo(controller)
+
 const sc36 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
     .setClassToggle('.soma_p2', 'show',)
     .addTo(controller)
+
 const sc37 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
     .setClassToggle('.ben_p2', 'show',)
     .addTo(controller)
@@ -172,7 +175,8 @@ const sc40 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
 const sc41 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
     .setClassToggle('.soma_p3', 'show',)
     .addTo(controller)
-const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+
+    const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
     .setClassToggle('.ben_p3', 'show',)
     .addTo(controller)
 
