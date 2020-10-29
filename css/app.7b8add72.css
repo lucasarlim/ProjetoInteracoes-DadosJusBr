@@ -266,6 +266,22 @@ a[data-v-29524bd9]{
     @media only screen and (max-width:650px){
     .dropDownButton[data-v-072774fc]{
         width:90%}
+<<<<<<< HEAD
 
+=======
+    
+    .containeranimation[data-v-29524bd9] #empregado,#salario,#beneficio, #moradia,#saude, #carro,#remuneracao,#diaria{
+        
+        width: 30px;
+        height: auto;
+        position: static;
+        height: auto;
+        overflow: visible;
+    }
+
+    .containeranimation[data-v-29524bd9] #moradia{
+        margin-left: -162px;
+    }
+>>>>>>> parent of ef3c0d0... commit
 }
                     
