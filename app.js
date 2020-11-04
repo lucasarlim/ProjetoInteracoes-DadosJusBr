@@ -7,7 +7,7 @@ const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, triggerHook: 0.6,})
     .setClassToggle('.predio', 'show')
-    .addIndicators({ name: 'start',indent: 0,})
+   
     .addTo(controller)
 
 const sc1 = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, triggerHook: 0.5})
@@ -57,7 +57,6 @@ const sc11 = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, 
   
 const sc12 = new ScrollMagic.Scene({ triggerElement: '#empregado', duration: 1000, triggerHook: 0.7,})
     .setClassToggle('#empregado','show')
-    .addIndicators({ name: 'start',indent: 0,})
     .addTo(controller)
 
 const sc13 = new ScrollMagic.Scene({ triggerElement: '#empregado', duration: 1000, triggerHook: 0.6 })
@@ -121,7 +120,6 @@ const sc27 = new ScrollMagic.Scene({ triggerElement: '#empregado', duration: 100
 
 const scene28 = new ScrollMagic.Scene({ triggerElement: '.p1', duration: 1000, triggerHook: 0.63,})
     .setClassToggle('.p1','show')
-    .addIndicators({ name: 'start',indent: 0,})
     .addTo(controller)
 
 const sc29 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
@@ -182,7 +180,6 @@ const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
 
 const sc43 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.5,})
     .setClassToggle('.computadorAnimacao1','show')
-    .addIndicators({ name: 'start',indent: 0,})
     .addTo(controller)    
 
 const sc44 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
