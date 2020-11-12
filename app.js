@@ -7,7 +7,7 @@ const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, triggerHook: 0.6,})
     .setClassToggle('.predio', 'show')
-   
+    .addIndicators({ name: 'start',indent: 0,})
     .addTo(controller)
 
 const sc1 = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, triggerHook: 0.5})
@@ -126,15 +126,15 @@ const sc29 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
     .setClassToggle('.seta_p1', 'show',)
     .addTo(controller)
 
-const sc30 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc30 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.sal_p1', 'show',)
     .addTo(controller)
 
-const sc31 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc31 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.soma_p1', 'show',)
     .addTo(controller)
 
-const sc32 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc32 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.ben_p1', 'show',)
     .addTo(controller)
 
@@ -146,15 +146,15 @@ const sc34 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
     .setClassToggle('.seta_p2', 'show',)
     .addTo(controller)
 
-const sc35 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc35 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.sal_p2', 'show',)
     .addTo(controller)
 
-const sc36 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc36 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.soma_p2', 'show',)
     .addTo(controller)
 
-const sc37 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc37 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.ben_p2', 'show',)
     .addTo(controller)
 
@@ -166,50 +166,50 @@ const sc39 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, trig
     .setClassToggle('.seta_p3', 'show',)
     .addTo(controller)
 
-const sc40 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc40 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.sal_p3', 'show',)
     .addTo(controller)
 
-const sc41 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc41 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.soma_p3', 'show',)
     .addTo(controller)
 
-const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.4 })
+const sc42 = new ScrollMagic.Scene({ triggerElement: '.p2', duration: 1000, triggerHook: 0.5 })
     .setClassToggle('.ben_p3', 'show',)
     .addTo(controller)
 
-const sc43 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.5,})
+const sc43 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.35,})
     .setClassToggle('.computadorAnimacao1','show')
     .addTo(controller)    
 
-const sc44 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+const sc44 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.25 })
     .setClassToggle('.seta_esquerda_animacao1', 'show',)
     .addTo(controller)
 
-const sc45 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+const sc45 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.25 })
     .setClassToggle('.seta_direita_animacao1', 'show',)
     .addTo(controller)
     
-const sc46 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+const sc46 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.25 })
     .setClassToggle('.seta_cima_animacao1', 'show',)
     .addTo(controller)
     
-const sc47 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.4 })
+const sc47 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.25 })
     .setClassToggle('.seta_baixo_animacao1', 'show',)
     .addTo(controller)
 
-const sc48 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+const sc48 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.15 })
     .setClassToggle('.fileEsquerda', 'show',)
     .addTo(controller)
 
-const sc49 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+const sc49 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.15 })
     .setClassToggle('.fileCima', 'show',)
     .addTo(controller)
 
-const sc50 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+const sc50 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.15 })
     .setClassToggle('.fileBaixo', 'show',)
     .addTo(controller)
 
-const sc51 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.3 })
+const sc51 = new ScrollMagic.Scene({ triggerElement: '.fileCima', duration: 1000, triggerHook: 0.15 })
     .setClassToggle('.fileDireita', 'show',)
     .addTo(controller)
