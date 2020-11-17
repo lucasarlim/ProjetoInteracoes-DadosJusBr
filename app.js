@@ -7,7 +7,6 @@ const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, triggerHook: 0.6,})
     .setClassToggle('.predio', 'show')
-    .addIndicators({ name: 'start',indent: 0,})
     .addTo(controller)
 
 const sc1 = new ScrollMagic.Scene({ triggerElement: '.predio', duration: 1000, triggerHook: 0.5})
